@@ -1,3 +1,12 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%(C) Nikolai Rozanov
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+clear all
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 Data = dlmread('npfda-electricity.dat');
 
 months = 1:12;

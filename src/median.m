@@ -1,4 +1,14 @@
 function F_hat = median(Kernel, f_vec, y_vec, f_test, points,q,h,n);
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%(C) Nikolai Rozanov
+%
+%computes kernel median method as described in the report
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 f_temp = @H;
 if h<=0
     h = 1;

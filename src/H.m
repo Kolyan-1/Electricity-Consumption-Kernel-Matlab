@@ -1,5 +1,13 @@
 function w = H(x)
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%(C) Nikolai Rozanov
+%
+%Kernel Function
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 Kernel_quadratic = @(x) 1-x.^2;
 
 if x<-1 

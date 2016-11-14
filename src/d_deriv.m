@@ -1,4 +1,15 @@
+
 function d = d_deriv(f1, f2, eval_points, q)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%(C) Nikolai Rozanov
+%
+%Computes the derivative metric
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 f1_vec = f1(eval_points);
 f2_vec = f2(eval_points);
 if q>0

@@ -1,5 +1,13 @@
 function y_reg_hat = regression(Kernel, f_vec, y_vec, f_test, points,q,h,n);
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%(C) Nikolai Rozanov
+%
+% Computes Kernel Regression
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 if h<=0
     h = 1;
 end
